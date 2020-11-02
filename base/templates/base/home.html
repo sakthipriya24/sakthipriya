@@ -1,0 +1,117 @@
+{% load static %}
+<!--
+<h3>Hello World</h3>
+<img src="{% static 'images/sakthipriyachinnadurai.jpg' %}">
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sakthi priya</title>
+    <link href = "{% static '/css/main.css' %}" rel= "stylesheet" type = "text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/sakthipriyachinnadurai.jpg' %}">
+                    <br>
+                    <h4>Hi i'm Sakthi</h4>
+                    <p>I love coding, blogging and review writing</p>
+                </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="card card-body h-100 border-info" id="projects-wrapper">
+                        <h4>Projects Completed</h4>
+                        <h5>Automatic Traffic Control System-2020</h5>
+                        <h6>Technology used: Python and Machine Learning</h6>
+                        <p>The project is all about controlling traffic in a real time manner. It considers the lane which has long waiting time for signal switching even it has very less amount of traffic when compared to the other lanes.</p>
+                        
+                        <h5>Invoice Processing-2019</h5>
+                        <h6>Technology used: Robotic Processing and Automation</h6>
+                        <p>The project starts with extracting invoices using OCR. The scraped information converted to a data table and sent to the respective person through electronic mail automatically.</p>
+                    <!--
+                        <ul class="social-links">
+                        <li><img class="social" src="{% static 'images/github.png' %}"></li>
+                        <li><img class="social" src="{% static 'images/instagram.jpg' %}"></li>
+                        <li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+                    </ul>
+                -->
+                    </div>
+                </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card card-body h-100 border-info" id="achievements-wrapper">
+                            <h4>Achievements</h4><hr>
+                            <p>75 Days of Python Coding Challenge - Elite Coder Certification with a price amount Rs. 5000</p>
+                                <p>ThinKAHack - Participation Certification</p>
+                                <p>Happy Heart and Kidney Marathon 2018 - Participation Certification</p>
+                        </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card card-body h-100 border-info" id="conference-wrapper">
+                                <h4>Conference</h4><hr>
+                                <p>Automatic Traffic Control using Machine Learning in 6th International E-Conference on Latest trends in Science, Engineering and Technology(ICLTSET'20)on April 13,2020</p>
+                            </div>
+                            </div>
+                        <div class="col-md-3">
+                            <div class="card card-body h-100 border-info" id="workshops-wrapper">
+                                <h4>Workshops</h4>
+                                <hr>
+                                <p>Understanding Market Research - Ugam Solutions, Coimbatore</p>
+                                <p>MVC Design Pattern in C++ - Kgisl Institute of Technology, Coimbatore</p>
+                            </div>
+                        </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card card-body h-100 border-info" id="skills-wrapper">
+                                    <h4>Software Skills</h4><hr>
+                                    <h6>(certified under Sololearn)</h6>
+                                    <p>C and C++, Java, Python, Ruby, HTML, CSS, SQL</p>
+                                    <h6>(certified under UiPath)</h6>
+                                    <p>Foundation, Orchestrator, SAP Training</p>
+                                </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="card card-body h-100 border-info" id="academics-wrapper">
+                                        <h4>Academics</h4><hr>
+                                        <table>
+                                            <tr><td><p><b>Interval</b></p></td>
+                                                <td><p><b>Course</b></p></td>
+                                                <td><p><b>Institution</b></p></td>
+                                                <td><p><b>Score</b></p></td>
+                                                <td><p><b>Location</b></p></td>
+                                            </tr>
+                                            <tr><td><p>2016-2020</p></td>
+                                                <td><p>BE-CSE</p></td>
+                                                <td><p>KGiSL Institute of Technology</p></td>
+                                                <td><p>75.1%</p></td>
+                                                <td><p>Coimbatore</p></td>
+                                            </tr>
+                                            <tr><td><p>2015-2016</p></td>
+                                                <td><p>HSC</p></td>
+                                                <td><p>TNDTA RMP PCN HR SEC School</p></td>
+                                                <td><p>81.75%</p></td>
+                                                <td><p>Tuticorin</p></td>
+                                            </tr>
+                                            <tr><td><p>2013-2014</p></td>
+                                                <td><p>SSLC</p></td>
+                                                <td><p>TNDTA RMP PCN HR SEC School</p></td>
+                                                <td><p>96.8%</p></td>
+                                                <td><p>Tuticorin</p></td>
+                                            </tr></table>
+                                    </div>
+                                </div>
+                                </div>
+                                <br>
+                </div>
+    
+</body>
+</html>
