@@ -1,1 +1,1 @@
-web: gunicorn myresume.wsgi --log-file
+web: gunicorn myresume.wsgi:application --log-file
